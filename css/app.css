@@ -1,0 +1,81 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+#header-container,
+#info-container {
+  background-color: #ff9000;
+  color: white;
+}
+
+
+#menu-container .myform{
+  margin-left: 50px;
+}
+
+input.form-control:focus {
+  border-color: #99c84a;
+}
+
+.myIcon {
+  display: none;
+}
+
+.myLogin {
+  display: none;
+}
+
+button:focus {
+  outline: none;
+}
+
+
+#carousel-container img {
+  max-height: 500px;
+}
+
+#footer-container {
+  background-color: #1c3643;
+  color: white;
+}
+
+#footer-container .form-control {
+  width: inherit;
+}
+
+#footer-container .nav-link {
+  color: white;
+}
+
+
+#filtros-container .list-group-item-action.active {
+  background-color: #99c84a;
+  border-color: #99c84a;
+}
+
+#productos-contianer .form-check-label {
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+#paginatorContainer .page-item.disabled .page-link {
+  color: gray;
+}
+
+#paginatorContainer .page-item.active .page-link {
+  background-color: #99c84a;
+  border-color: #99c84a;
+  color: white;
+}
+
+#paginatorContainer .page-link {
+  color: #99c84a;
+}
+
+
+
+@media (max-width: 768px) {
+  #menu-container .form-control {
+    width: inherit;
+  } 
+}
